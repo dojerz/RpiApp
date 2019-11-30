@@ -14,13 +14,14 @@ namespace RpiApp
             //    null,
             //    TimeSpan.Zero,
             //    TimeSpan.FromSeconds(2))
-            Console.WriteLine("Hopp1");
-            while (true)
-            {
+            //Console.WriteLine("Hopp1");
+            //while (true)
+            //{
 
-            }
+            //}
 
-            Timer timer = new Timer(WriteToDb, null, 0, 3000);
+            //Timer timer = new Timer(WriteToDb, null, 0, 3000);
+
 
             Console.WriteLine("Hopp2");
 
@@ -32,9 +33,10 @@ namespace RpiApp
 
         }
 
-        async Task TestToDB()
+        async Task<int> TestToDB()
         {
-            await Console.WriteLine("Kisfaszom");
+            
+            return 1;
         }
     }
 }
